@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.7",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mobiscroll": "^3.0.0-beta6",
+    "mobiscroll-react": "^4.0.0",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
+
+
+
