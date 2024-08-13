@@ -1,4 +1,7 @@
-{
+{  "main":"index.js",
+"scripts": {
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
@@ -12,8 +15,6 @@
     "mobiscroll-react": "^4.0.0",
     "mongoose": "^8.5.2",
     "nodemon": "^3.1.4"
-  },
-  "scripts": {
-    "start": "node src/app.js"
   }
+  
 }
