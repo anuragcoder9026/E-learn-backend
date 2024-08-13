@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
-
+require('dotenv').config();
 const app = express();
 
 app.use(express.json());
@@ -49,7 +49,7 @@ mongoose.connect('mongodb+srv://iitpatelanurag2003:anurag9044@cluster0.xo9ow1j.m
     useNewUrlParser: true 
 })
 .then(result => {
-    app.listen(process.env.PORT || 5000);
+    app.listen(process.env.PORT || 8000);
     console.log("Server started at port 5000");
     console.log("http://localhost:5000");
 })
